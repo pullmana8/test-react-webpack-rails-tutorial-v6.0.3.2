@@ -19,6 +19,10 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.19",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
     "webpack": "^4.44.0",
     "webpack-dev-server": "^3.11.0"
   }
