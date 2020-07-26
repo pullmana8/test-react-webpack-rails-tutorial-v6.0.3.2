@@ -53,3 +53,5 @@ end
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "spring-commands-rspec", "~> 1.0"
+
+gem "rspec-rails", "~> 4.0"
