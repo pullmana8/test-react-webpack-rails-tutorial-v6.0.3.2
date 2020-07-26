@@ -55,3 +55,5 @@ end
 gem "spring-commands-rspec", "~> 1.0"
 
 gem "rspec-rails", "~> 4.0"
+
+gem 'mini_racer', platforms: :ruby
