@@ -1,24 +1,3 @@
-# README
+## Testing react_on_rails with minimal setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`rails new test-react-webpack-tails-tutorial-v6.0.3.2 --minimal --webpack=react --database=postgresql --skip-sprockets`
