@@ -39,6 +39,14 @@ group :development do
   gem 'listen', '~> 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  # Favorite debugging gems
+  gem "pry", "~> 0.13.1"
+  gem "pry-byebug", "~> 3.9"
+  gem "pry-doc", "~> 1.1"
+  gem "pry-rails", "~> 0.3.9"
+  gem "pry-rescue", "~> 1.5"
+  gem "pry-stack_explorer", "~> 0.5.1"
 end
 
 group :test do
@@ -57,3 +65,4 @@ gem "spring-commands-rspec", "~> 1.0"
 gem "rspec-rails", "~> 4.0"
 
 gem 'mini_racer', platforms: :ruby
+
