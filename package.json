@@ -25,6 +25,7 @@
     "expose-loader": "^1.0.0",
     "immutable": "^4.0.0-rc.12",
     "imports-loader": "^1.1.0",
+    "intl": "^1.2.5",
     "jquery": "^3.5.1",
     "jquery-ujs": "^1.2.2",
     "js-yaml": "^3.14.0",
