@@ -12,6 +12,7 @@ export default class Layout extends Component {
 
     /* eslint-disable react/no-unescaped-entities */
     render() {
+      const { children } = this.props;
       return (
         <section>
           <header>
@@ -34,7 +35,9 @@ export default class Layout extends Component {
               </li>
             </ul>
           </header>
-          {this.props.children}
+          { children }
+          {/* eslint react/destructuring-assignment
+            {this.props.children} */}
         </section>
       );
     }
