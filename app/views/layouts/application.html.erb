@@ -5,8 +5,8 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_packs_with_chunks_tag('clientRegistration', media: 'all') %>
-    <%= javascript_packs_with_chunks_tag('clientRegistration', defer: true) %>
+    <%= stylesheet_packs_with_chunks_tag('clientRegistration', media: 'all', 'data-turbolinks-tracks': true) %>
+    <%= javascript_packs_with_chunks_tag('clientRegistration', 'data-turbolinks-tracks'L true, defer: true) %>
 
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= javascript_pack_tag 'application' %>
