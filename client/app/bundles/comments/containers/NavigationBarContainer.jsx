@@ -6,25 +6,25 @@ import BaseComponent from 'libs/components/BaseComponent';
 import NavigationBar from '../components/NavigationBar/NavigationBar';
 
 function stateToProps(state) {
-    if (state.$$commentsStore) {
-        return {
-            pathname: state.railsContext.pathname,
-        };
-    }
-    return { };
+  if (state.$$commentsStore) {
+    return {
+      pathname: state.railsContext.pathname,
+    };
+  }
+  return { };
 }
 
 class NavigationBarContainer extends BaseComponent {
     static propTypes ={
-        pathname: PropTypes.string.isRequired,
+      pathname: PropTypes.string.isRequired,
     };
 
     render() {
-        const { pathname } = this.props;
+      const { pathname } = this.props;
 
-        return (
-            <NavigationBar {...{ pathname }} />
-        );
+      return (
+        <NavigationBar {...{ pathname }} />
+      );
     }
 }
 
