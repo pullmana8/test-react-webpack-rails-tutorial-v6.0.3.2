@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TestReactWebpackTailsTutorialV6032</title>
+    <title>React on Rails Tutorial</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+    <%= stylesheet_packs_with_chunks_tag('clientRegistration', media: 'all') %>
+    <%= javascript_packs_with_chunks_tag('clientRegistration', defer: true) %>
 
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= javascript_pack_tag 'application' %>
