@@ -8,10 +8,27 @@
 /.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+/log/*.log
+/tmp
+/public/assets
+.env
+node_modules
+npm-debug.log*
+/coverage
+
+# Ignore bundle dependencies
+vendor/ruby
+
+# RVM gemset
+.ruby-gemset
+
+# Generated js bundles
+/public/webpack/
+/public/webpack-test/
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
 
 # Ignore pidfiles, but keep the directory.
 /tmp/pids/*
@@ -27,10 +44,3 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-
-/public/packs
-/public/packs-test
-/node_modules
-/yarn-error.log
-yarn-debug.log*
-.yarn-integrity
