@@ -1,14 +1,22 @@
-import ReactOnRails from 'react-on-rails';
 import 'bootstrap-loader';
-
-import HelloWorld from '../bundles/HelloWorld/components/HelloWorld';
+import 'jquery-ujs';
+import ReactOnRails from 'react-on-rails';
 
 import App from '../bundles/comments/startup/App';
 import NavigationBarApp from '../bundles/comments/startup/NavigationBarApp';
+import commentsStore from '../bundles/comments/store/commentsStore';
+import routerCommentsStore from '../bundles/comments/store/routerCommentsStore';
 
-// This is how react_on_rails can see the HelloWorld in the browser.
+ReactOnRails.setOptions({
+  traceTurbolinks: true,
+});
+
 ReactOnRails.register({
   App,
-  HelloWorld,
   NavigationBarApp,
+});
+
+ReactOnRails.registerStore({
+  routerCommentsStore,
+  commentsStore,
 });
