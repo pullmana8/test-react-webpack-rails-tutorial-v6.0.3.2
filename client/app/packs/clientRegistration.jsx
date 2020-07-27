@@ -10,5 +10,5 @@ import NavigationBarApp from '../bundles/comments/startup/NavigationBarApp';
 ReactOnRails.register({
   App,
   HelloWorld,
-  NavigationBarApp
+  NavigationBarApp,
 });
